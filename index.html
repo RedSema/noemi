@@ -44,6 +44,68 @@
       <h1 class="title__text">блог о творчестве, спорте,<br> и образе жизни</h1>
     </span>
   </header>
+  <div class="popup__overlay"></div>
+  <div class="popup">
+    <h2 class="title-article">ваш фидбек</h2>
+  </div>
+  <div class="trends">
+    <h2 class="title-article">сейчас в тренде</h2>
+    <div class="trends__list">
+      <div class="trend">
+        <img class="trend__img" src="../images/trend1.jpg">
+        <div class="trend__content">
+          <ul class="tags">
+            <li class="tags__item">
+              <a href="#0">lifestyle</a>
+            </li>
+            <li class="tags__item">
+              <a href="#0">interior</a>
+            </li>
+          </ul>
+          <h2 class="trend__content-title">Сейчас в тренде: сад на подоконнике</h2>
+        </div>
+      </div>
+      <div class="trend">
+        <img class="trend__img" src="../images/trend2.jpg">
+        <div class="trend__content">
+          <ul class="tags">
+            <li class="tags__item">
+              <a href="#0">food</a>
+            </li>
+          </ul>
+          <h2 class="trend__content-title">сыры на красивых картинках из интернета: какие они на вкус?</h2>
+        </div>
+      </div>
+      <div class="trend">
+        <img class="trend__img" src="../images/trend3.jpg">
+        <div class="trend__content">
+          <ul class="tags">
+            <li class="tags__item">
+              <a href="#0">lifestyle</a>
+            </li>
+            <li class="tags__item">
+              <a href="#0">travel</a>
+            </li>
+          </ul>
+          <h2 class="trend__content-title">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</h2>
+        </div>
+      </div>
+      <div class="trend">
+        <img class="trend__img" src="../images/trend4.jpg">
+        <div class="trend__content">
+          <ul class="tags">
+            <li class="tags__item">
+              <a href="#0">food</a>
+            </li>
+            <li class="tags__item">
+              <a href="#0">health</a>
+            </li>
+          </ul>
+          <h2 class="trend__content-title">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?</h2>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="page">
     <main class="main">
       <article class="article">
@@ -353,6 +415,70 @@
         </ul>
       </section>
     </aside>
+  </div>
+  <div class="shop">
+    <h2 class="title-article">наши изделия</h2>
+    <div class="products">
+      <div class="product">
+        <picture>
+          <source srcset="../images/shop-item-desk1.jpg" media="(min-width: 1200px)">
+          <source srcset="../images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+          <source srcset="../images/shop-item-mobile1.jpg" media="(max-width: 640px)">
+          <img src="../images/shop-item-desk1.jpg">
+        </picture>
+        <div class="product__content">
+          <h2 class="product__title">подушки на диван</h2>
+          <p>Набор из двух подушек с модными принтами. Видео о создании <a href="#0">здесь</a>.</p>
+          <div class="order">
+            <div class="price">
+              <span class="price-old">1000 ₽</span>
+              <span class="price-new">800 ₽</span>
+            </div>
+            <input type="button" class="order__button" value="В МАГАЗИН">
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <picture>
+          <source srcset="../images/shop-item-desk2.jpg" media="(min-width: 1200px)">
+          <source srcset="../images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+          <source srcset="../images/shop-item-mobile2.jpg" media="(max-width: 640px)">
+          <img src="../images/shop-item-desk2.jpg">
+        </picture>
+        <div class="product__content">
+          <h2 class="product__title">кукла "зайчик"</h2>
+          <p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0">весенняя серия постов</a>
+            в
+            блоге и несколько подкастов.</p>
+          <div class="order order-second">
+            <div class="price">
+              <span class="price-new">3500 ₽</span>
+            </div>
+            <input type="button" class="order__button" value="В МАГАЗИН">
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <picture>
+          <source srcset="../images/shop-item-desk3.jpg" media="(min-width: 1200px)">
+          <source srcset="../images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+          <source srcset="../images/shop-item-mobile3.jpg" media="(max-width: 640px)">
+          <img src="../images/shop-item-desk3.jpg">
+        </picture>
+        <div class="product__content">
+          <h2 class="product__title">шестиугольная рамка</h2>
+          <p>Необычная рамка для украшения дома из видео <a href="#0">«Как сделать рамку из подручных средств за 30
+              минут»</a></p>
+          <div class="order">
+            <div class="price">
+              <span class="price-old">500 ₽</span>
+              <span class="price-new">400 ₽</span>
+            </div>
+            <input type="button" class="order__button" value="В МАГАЗИН">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class="footer">
     <adress class="adress">
