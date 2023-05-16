@@ -659,7 +659,7 @@ img {
     display: block;
     position: absolute;
     top: 50px;
-    right: 0;
+    right: 35px;
     width: 20px;
     height: 20px;
     z-index: 1;
@@ -724,4 +724,95 @@ img {
     width: 100%;
   }
   
+}
+
+@media (max-width: 640px) {
+  .container__menu {
+    display: none;
+  }
+
+  .container__menu-burger {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    background: transparent;
+    border: none;
+  }
+
+  .trends__list {
+    display: block;
+   }
+
+   .trend {
+    width: 100%;
+    margin-bottom: 3px;
+  }
+
+  .page {
+    display: block;
+  }
+
+  .main {
+    display: block;
+  }
+
+  .article {
+    width: 100%;
+    display: block;
+    margin: 0 0 54px 0;
+    padding: 5px 15px 0 15px;
+  }
+
+  .article__image {
+    width: 100%;
+    margin: 0;
+  }
+
+  .article__image-item {
+    width: 100%;
+  }
+
+  .article__content {
+    width: 70%;
+  }
+
+  .aside {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0;
+  }
+
+  .search, .search__row {
+    width: 100%;
+  }
+
+  .subscribe, .subscribe__row, .submit-button {
+    width: 100%;
+  }
+
+  .products {
+ display: block;
+ width: 100%;
+ padding: 0 15px 0 15px;
+  }
+  .product {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .footer {
+    width: 100%;
+  }
+  .adress {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
 }
