@@ -47,7 +47,28 @@
   <div class="popup__overlay"></div>
   <div class="popup">
     <h2 class="title-article">ваш фидбек</h2>
-    This is test data for popup
+    <form class="popup__form" action="#0">
+      <label for="select">Как часто вы заходите на сайт?</label>
+      <select class="select" name="select" id="select">
+        <option selected>Почти каждый день</option>
+        <option>Один-два раза в неделю</option>
+        <option>Пару раз в месяц</option>
+        <option>Я тут впервые!</option>
+      </select>
+      <span class="radio__title">Вы подписаны на e-mail рассылку?</span>
+      <label class="radio-email">
+        <input type="radio" name="radio-email" class="radio-email__control" checked>
+        <span class="radio-email__text">Да</span>
+      </label>
+      <label class="radio-email">
+        <input type="radio" name="radio-email" class="radio-email__control">
+        <span class="radio-email__text">Нет</span>
+      </label>
+      <label class="textarea__label" for="textarea">Расскажите, какой контент вы хотели бы видеть
+        на нашем сайте?</label>
+      <textarea class="textarea" placeholder="Может, больше рецептов?"></textarea>
+      <button type="submit" class="popup__button">ОТПРАВИТЬ</button>
+    </form>
   </div>
   <div class="trends">
     <h2 class="title-article">сейчас в тренде</h2>
